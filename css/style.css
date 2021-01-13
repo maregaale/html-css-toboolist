@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+/* intestazione-header */
+header {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.incipit-text {
+  display: inline;
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.incipit-img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* /intestazione-header */
+
+/* corpo del progetto */
+/* primo blocco con i pulsanti */
+.container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.button-container {
+  padding: 15px 50px 10px 50px;
+  border-bottom: 4px solid #f6f8f9;
+}
+
+.button {
+  padding: 5px 8px;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #BEBEBE;
+}
+
+.button-color {
+  background-color: #47ADF1;
+  color: #fff;
+}
+/* /primo blocco con i pulsanti */
+
+/* secondo blocco con le liste */
+.tasks-container {
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.principal-list-item {
+  margin-bottom: 50px;
+}
+
+li {
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+/* cerchi ok e non-ok */
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.circle.ok {
+  border: 1px solid #00cc00;
+  color: #00cc00;
+}
+
+.circle.not {
+  border: 1px solid #cc0000;
+  color: #cc0000;
+}
+/* /cerchi ok e non-ok */
+
+/* layout parole chiave */
+.identity {
+  padding: 5px 8px;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.identity.identity-color-1 {
+  background-color: #47ADF1;
+}
+
+.identity.identity-color-2 {
+  background-color: #9966ff;
+}
+
+.identity.identity-color-3 {
+  background-color: #00e6ac;
+}
+
+.identity.identity-color-4 {
+  background-color: #ffa31a;
+}
+
+.identity.identity-color-5 {
+  background-color: #ff3399;
+}
+
+.identity.identity-color-6 {
+  background-color: #ace600;
+}
+/* /layout parole chiave */
+/* /secondo blocco con le liste */
+/* /corpo del progetto */
